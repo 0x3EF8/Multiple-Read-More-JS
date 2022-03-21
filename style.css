@@ -1,0 +1,23 @@
+body{
+    padding: 30px;
+    margin: 0;
+}
+.post{
+    font-family: "Poppins",sans-serif;
+}
+.post p{
+    font-size: 14px;
+}
+.post button{
+    padding: 10px;
+    background-color: #ff0268;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.post:not(:last-child){
+    margin-bottom: 50px;
+}
+.hide{
+    display: none;
+}
